@@ -166,16 +166,6 @@ body.m-level-page::after {
   background: #fff;
 }
 
-.m-level-page .certificate-wrapper::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(120deg, transparent 0 42%, rgba(255, 255, 255, 0.52) 50%, transparent 58%);
-  transform: translateX(-120%);
-  animation: mSweep 8s ease-in-out infinite;
-  pointer-events: none;
-}
-
 .m-level-page .certificate-wrapper img {
   display: block;
   width: 100%;
@@ -227,12 +217,6 @@ body.m-level-page::after {
   border: 1px solid rgba(249, 115, 22, 0.16);
   color: #9a3412;
   font-weight: 700;
-}
-
-@keyframes mSweep {
-  0% { transform: translateX(-120%); }
-  35% { transform: translateX(118%); }
-  100% { transform: translateX(118%); }
 }
 
 @keyframes mRailDrift {
